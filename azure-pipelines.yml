@@ -1,20 +1,20 @@
 trigger:
-- main  # Change this to your branch name
+- main  # Change to your default branch
 
 pool:
-  vmImage: 'ubuntu-latest'  # Use an appropriate VM image
+  vmImage: 'ubuntu-latest'  # Use Ubuntu image
 
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '18.x'  # Specify your Node.js version
+    versionSpec: '18.x'  # Specify the Node.js version
   displayName: 'Install Node.js'
 
 - script: |
-    npm install  # Install dependencies
-    npx playwright install  # Install Playwright browsers
-  displayName: 'Install dependencies'
+    npm install
+    npx playwright install
+  displayName: 'Install dependencies and browsers'
 
-- script: |
-    npx playwright test  # Run your Playwright tests
+- script: npm test  # Runs the Playwright tests
   displayName: 'Run Playwright tests'
+
