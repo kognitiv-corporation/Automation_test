@@ -1,0 +1,24 @@
+{
+    "email": {
+      "type": "label",
+      "label": "Email Address"
+    },
+    "password": {
+      "type": "label",
+      "label": "Password"
+    },
+    "loginButton": {
+      "type": "role",
+      "role": "button",
+      "name": "Login"
+    },
+    "welcomeMessage": {
+      "type": "locator",
+      "locator": "#txtWelcomeMessage"
+    },
+    "moduleTitle": {
+      "type": "locator",
+      "locator": "#ctl05_ControlTitle_lblModuleTitle"
+    }
+  }
+  

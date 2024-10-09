@@ -1,0 +1,30 @@
+{
+    "createSegmentButton": {
+      "type": "role",
+      "role": "button",
+      "name": "Create Promotional Segment"
+    },
+    "name": {
+      "type": "label",
+      "label": "Name"
+    },
+    "externalReference": {
+      "type": "label",
+      "label": "External Reference"
+    },
+    "continueButton": {
+      "type": "role",
+      "role": "button",
+      "name": "Continue"
+    },
+    "createSegmentFinalButton": {
+      "type": "role",
+      "role": "button",
+      "name": "Create Segment"
+    },
+    "searchInput": {
+      "type": "placeholder",
+      "placeholder": "Search..."
+    }
+  }
+  
